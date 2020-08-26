@@ -2,7 +2,7 @@
     session_start();
 
     //if user not logged in then redirect to home page
-    if (!isset($_SESSION['logged in'])) {
+    if (!isset($_SESSION['loggedin'])) {
         header('Location: index.html');
         exit;
     }
