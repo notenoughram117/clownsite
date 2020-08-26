@@ -7,10 +7,16 @@
         exit;
     }
 
+    //Database Credentials:
+
     $DATABASE_HOST = 'localhost';
     $DATABASE_USER = 'admin';
     $DATABASE_PASS = 'notobviouspass';
     $DATABASE_NAME = 'users';
+
+    //Default Admin Login Credentials, remove before launch!!!!
+    //username: admin
+    //password: test
 
     $con = mysqli_connect($DATABASE_HOST, $DATABASE_USER, $DATABASE_PASS, $DATABASE_NAME);
     if ( mysqli_connect_errno() ) {
