@@ -10,8 +10,8 @@
     //Database Credentials:
 
     $DATABASE_HOST = 'localhost';
-    $DATABASE_USER = 'admin';
-    $DATABASE_PASS = 'notobviouspass';
+    $DATABASE_USER = 'root';
+    $DATABASE_PASS = 'abc123';
     $DATABASE_NAME = 'users';
 
     //Default Admin Login Credentials, remove before launch!!!!
