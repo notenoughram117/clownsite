@@ -46,7 +46,7 @@
             <h1> Test </h1>
             <a href="./logout.php">Logout </a>
 
-            <form>
+            <form action="upload.php" method="post" enctype="multipart/form-data">
                 <input type="file" id="uploadFile" name="filename">
                 <input type="submit">> 
             </form>
