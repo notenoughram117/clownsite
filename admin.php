@@ -47,7 +47,7 @@
             <a href="./logout.php">Logout </a>
 
             <form action="upload.php" method="post" enctype="multipart/form-data">
-                <input type="file" id="uploadFile" name="filename">
+                <input type="file" id="uploadFile" name="uploadFile">
                 <input type="submit">> 
             </form>
         </body>
