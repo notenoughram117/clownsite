@@ -2,8 +2,8 @@
 session_start();
 // Connection info.
 $DATABASE_HOST = 'localhost';
-$DATABASE_USER = 'admin';
-$DATABASE_PASS = 'notobviouspass';
+$DATABASE_USER = 'root';
+$DATABASE_PASS = 'abc123';
 $DATABASE_NAME = 'users';
 
 // Try and connect using the info above.
