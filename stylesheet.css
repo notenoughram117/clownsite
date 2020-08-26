@@ -1,0 +1,76 @@
+.Header{
+	background-image: linear-gradient(135deg, #bfffff 5%, #007878);
+	background-size:cover;
+ 	background-position:center;
+    background-attachment:no-repeat;
+    text-align: center;
+	padding: 50px;
+}
+
+body, html {
+	background-color: #102027;
+	height: 100%;
+    color: White;
+    font-family: 'Open Sans';
+    font-size: 22px;
+}
+
+.Content{
+    margin-top: 1rem;
+    margin-left: 20%;
+    margin-right: 20%;
+
+    padding: 10px;
+
+    border-color: white;
+    border-style: solid;
+    border-radius: 3px;
+}
+
+a:hover, a:active{
+    color: #bfffff;
+    text-decoration: underline !important;
+}
+a:link, a:visited{
+    color: #bfffff;
+    text-decoration: underline dotted;
+}
+a:hover.navbar{
+	background:rgba(0,0,0,0.3);
+}
+
+
+.HorizontalCenter{
+	text-align: center;
+}
+.HorizontalCenterImage{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.HorizontalCenterTable{
+	margin-left: auto;
+	margin-right: auto;
+}
+.VerticalCenter{
+	padding-bottom: 8rem;
+}
+
+
+.NavBar{
+	padding-top: 10px;
+}
+
+a.navbar{
+	background:rgba(0,0,0,0.1);
+	display:inline-block;
+	padding:0px 5px;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	font-family: "Open Sans";
+	align-self: center;
+	text-transform:uppercase;
+	letter-spacing:2px;
+	font-weight:200;
+}
